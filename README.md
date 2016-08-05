@@ -10,4 +10,4 @@ Clone this repository and run:
 
     docker-compose up
 
-Go to (http://localhost:3000)[http://localhost:3000]
+Go to [http://localhost:3000](http://localhost:3000)
