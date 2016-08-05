@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  app:
+    build: .
+    working_dir: /code
+    command: bash -c "npm update && npm start"
+    volumes:
+      - ./hello-world/:/code
+    ports:
+      - "3000:3000"
